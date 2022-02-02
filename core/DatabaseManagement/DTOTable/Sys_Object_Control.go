@@ -1,0 +1,46 @@
+package DTOTable
+
+type Sys_Object_Control struct {
+	SYS_OBJECT_CONTROL_ID int32
+	SYS_OBJECT_ID         int32
+	ACTIVE                bool
+	CONTROL_NAME          string
+	CONTROL_CAPTION       string
+	DATABASE_KEY          string
+	SYS_CONTROL_TYPE_ID   int32
+	DATA_LENGTH           int16
+	MIN_VALUE             int16
+	MAX_VALUE             int16
+	CONTROL_DATASOURCE    string
+	CONTROL_LOCATION_X    int32
+	CONTROL_LOCATION_Y    int32
+	CONTROL_HEIGHT        int32
+	CONTROL_WIDTH         int32
+	SEQUENCE_NUMBER       int32
+	INPUTVALUE            string
+	DATABASEVALUE         string
+	REQUIREDFIELDTEXT     string
+	REQUIREDFIELDREGULAR  string
+	CSSCLASS              string
+	VALIDATORCSSCLASS     string
+	TAG                   string
+	FINDFORMID            int32
+	FILLQUERY             string
+	UPDATEQUERY           string
+	DELETEQUERY           string
+	SYS_DEFAULT_VALUE_ID  int32
+	SYS_DATA_TYPE_ID      int16
+	TEXTMODE              string
+	JAVASCRIPTACTION      string
+	CACHEKEY              string
+	READONLY              bool
+	ATTRIBUTES1           string
+	ATTRIBUTES2           string
+	ATTRIBUTES3           string
+	DISABLE               bool
+	TOOLTIP               string
+	RELATED_CONTROL_ID    string
+	HTML_ELEMENTS         string
+	CSS_ELEMENTS          string
+	FINDFORMGUID          string
+}
